@@ -6,7 +6,7 @@ export const Navbar = () => {
             <div className="navbar-content">
                 <a href="/" className="brand">
                     <span className="brand-icon"></span>
-                    AutoFlow
+                    Aisa Acc
                 </a>
 
                 <ul className="nav-links">

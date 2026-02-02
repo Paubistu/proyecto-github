@@ -27,7 +27,7 @@
 .brand {
     font-weight: 700;
     font-size: 1.25rem;
-    background: linear-gradient(90deg, #fff, #a0a0b0);
+    background: linear-gradient(90deg, #fff, #94a3b8);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -63,7 +63,7 @@
 }
 
 .nav-cta {
-    background: linear-gradient(135deg, var(--color-primary), #ff4081);
+    background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
     color: white;
     padding: 0.5rem 1.25rem;
     border-radius: 8px;
@@ -76,5 +76,5 @@
 
 .nav-cta:hover {
     transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgba(255, 110, 64, 0.3);
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
 }

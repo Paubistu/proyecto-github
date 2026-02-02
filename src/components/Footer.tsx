@@ -5,7 +5,7 @@ export const Footer = () => {
         <footer className="footer">
             <div className="footer-content">
                 <div className="footer-brand">
-                    <h3>AutoFlow</h3>
+                    <h3>Aisa Acc</h3>
                     <p>
                         The open, extensible workflow automation tool.
                         <br />
@@ -45,7 +45,7 @@ export const Footer = () => {
             </div>
 
             <div className="footer-bottom">
-                &copy; {new Date().getFullYear()} AutoFlow Inc. All rights reserved.
+                &copy; {new Date().getFullYear()} Aisa Acc Inc. All rights reserved.
             </div>
         </footer>
     );
