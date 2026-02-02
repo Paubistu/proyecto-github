@@ -1,0 +1,41 @@
+:root {
+  /* Brand Colors */
+  --color-bg: #0b0c15;
+  --color-primary: #ff6e40; /* Orange-ish trigger color */
+  --color-secondary: #8c4bff; /* Purple node color */
+  --color-accent: #00e5ff; /* Cyan connecting line */
+  --color-text: #ffffff;
+  --color-text-muted: #a0a0b0;
+  --color-card-bg: rgba(255, 255, 255, 0.05);
+  --color-border: rgba(255, 255, 255, 0.1);
+
+  /* Typography */
+  --font-family: 'Inter', system-ui, sans-serif;
+  
+  /* Layout */
+  --max-width: 1200px;
+  --header-height: 80px;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-family);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+}

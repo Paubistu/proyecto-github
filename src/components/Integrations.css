@@ -1,0 +1,68 @@
+.integrations {
+    padding: 4rem 0;
+    background: var(--color-bg);
+    overflow: hidden;
+    position: relative;
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.integrations-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 0 2rem;
+}
+
+.integrations-header h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.integrations-header p {
+    color: var(--color-text-muted);
+}
+
+.marquee-container {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
+}
+
+.marquee-content {
+    display: flex;
+    gap: 4rem;
+    animation: scroll 30s linear infinite;
+    padding: 1rem 0;
+    white-space: nowrap;
+}
+
+.integration-item {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-text-muted);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: color 0.3s;
+    cursor: default;
+}
+
+.integration-item:hover {
+    color: var(--color-text);
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+/* Pause animation on hover */
+.marquee-container:hover .marquee-content {
+    animation-play-state: paused;
+}
